@@ -44,7 +44,6 @@ nav ul li {
 nav ul li a {
     color: midnightblue;
     text-decoration: none;
-    font-weight: bold;
     text-transform: capitalize;
 }
 
@@ -190,13 +189,17 @@ nav ul li a:hover {
 }
 
 #projects #demoBtn:hover, #projects #codeBtn:hover{
-    color: white;
-    background-color: transparent;
+    background-color: lightblue;
     border-color: white;
 }
 
 #demoBtn a, #codeBtn a {
     color: midnightblue;
+    text-decoration: none;
+}
+
+#demoBtn #demoBtn:hover a, #codeBtn #codeBtn:hover a {
+    color: white;
     text-decoration: none;
 }
 
@@ -247,7 +250,7 @@ nav ul li a:hover {
 
 #contact button {
     background-color: white;
-    color: midnightblue;
+    border: 2px solid midnightblue;
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 5px;
@@ -255,9 +258,7 @@ nav ul li a:hover {
 }
 
 #contact button:hover{
-    color: white;
-    background-color: transparent;
-    border-color: white;
+    background-color: lightblue;
 }
 
 #contact button a {
